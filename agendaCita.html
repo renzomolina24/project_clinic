@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/agendaCita.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400..800&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="icon" href="assets/ico/LogoS.ico" type="image/x-icon">
+    <title>Agenda tu cita - Vida Salud</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <img class="logo" src="assets/img/index/Logo.png" alt="Logo" />
+      <button id="abrir" class="abrir-menu"><i class="bi bi-list"></i></button>
+      <nav class="nav" id="nav">
+        <button class="cerrar-menu" id="cerrar"><i class="bi bi-x"></i></button>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="agendaCita.html">Agenda tu cita</a></li>
+          <li><a href="especialidades.html">Especialidades</a></li>
+          <li><a href="planSalud.html">Plan Salud</a></li>
+          <li><a href="ubicacion.html">Ubícanos</a></li>
+          <li><a href="/">Logout</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Appointment -->
+    <section class="appointment">
+      <div class="appointment_img">
+        <img src="assets/img/registrarCita/register.png" alt="" />
+      </div>
+      <div class="appointment_register">
+        <h2>Registro de citas</h2>
+        <form action="">
+          <div class="register_text">
+            <label for="">Especialidad</label>
+            <select name="">
+              <option value="value1">Medicina General</option>
+              <option value="value2">Dermatología</option>
+              <option value="value3">Cardiología</option>
+            </select>
+            <label for="">Médico</label>
+            <select name="">
+              <option value="value1">Medicina General</option>
+              <option value="value2">Dermatología</option>
+              <option value="value3">Cardiología</option>
+            </select>
+            <label for="">Fecha</label>
+            <input type="date" name="" id="" />
+            <label for="">Horario</label>
+            <input type="time" name="" id="" />
+            <label for="">Observación</label>
+            <textarea name="" id="" rows="6" cols="8" required></textarea>
+          </div>
+        </form>
+        <input class="button" type="submit" value="Registrar" />
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer_top">
+        <div class="footer_img">
+          <img src="assets/img/footer/footer.jpg" alt="" />
+        </div>
+        <div class="footer_us">
+          <h3>NOSOTROS</h3>
+          <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="">Misión y visión</a></li>
+          </ul>
+        </div>
+        <div class="footer_networks">
+          <h3>SÍGUENOS</h3>
+          <a href="https://www.facebook.com/centromedicodevida" target="_blank"
+            ><i class="bi bi-facebook"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/clinica_vidasalud/?hl=es"
+            target="_blank"
+            ><i class="bi bi-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <p>VidaSalud 2024 © - Todos los derechos reservados por Vida Salud.</p>
+      </div>
+    </footer>
+    <script src="js/header.js"></script>
+  </body>
+</html>
